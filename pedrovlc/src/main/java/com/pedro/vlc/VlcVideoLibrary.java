@@ -157,7 +157,7 @@ public class VlcVideoLibrary implements MediaPlayer.EventListener {
     } else {
       throw new RuntimeException("You cant set a null render object");
     }
-    if (width != 0 && height != 0) vlcOut.setWindowSize(width, height);
+    if (width != 0 && height != 0) vlcOut.setWindowSize(1280, 900);
     vlcOut.attachViews();
     player.setVideoTrackEnabled(true);
     player.play();
