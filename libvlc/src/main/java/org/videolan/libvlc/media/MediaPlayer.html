@@ -1,0 +1,1781 @@
+<!DOCTYPE HTML>
+<!-- NewPage -->
+<html lang="en"><head>
+    <title>MediaPlayer 4.0.0-eap9 API </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="dc.created" content="2020-03-25">
+    <link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
+    <link rel="stylesheet" type="text/css" href="../../../../dokka-javadoc-stylesheet.css" title="Style">
+    <link rel="stylesheet" type="text/css" href="../../../../jquery/jquery-ui.css" title="Style">
+    <script type="text/javascript" src="../../../../jquery/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="../../../../jquery/jquery-migrate-3.0.1.js"></script>
+    <script type="text/javascript" src="../../../../jquery/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="../../../../search.js"></script>
+    <script async type="text/javascript" src="../../../../module-search-index.js"></script>
+    <script async type="text/javascript" src="../../../../package-search-index.js"></script>
+    <script async type="text/javascript" src="../../../../type-search-index.js"></script>
+    <script async type="text/javascript" src="../../../../member-search-index.js"></script>
+    <script async type="text/javascript" src="../../../../tag-search-index.js"></script>
+</head><body>
+<script type="text/javascript">
+var pathtoroot = "../../../../";
+</script>
+<noscript>
+    <div>JavaScript is disabled on your browser.</div>
+</noscript><header role="banner">
+    <nav role="navigation">
+        <div class="fixedNav">
+            <!-- ========= START OF TOP NAVBAR ======= -->
+            <div class="topNav"><a id="navbar.top">
+                <!--   -->
+            </a>
+                <div class="skipNav"><a href="#skip.navbar.top" title="Skip navigation links">Skip navigation links</a>
+                </div>
+                <a id="navbar.top.firstrow">
+                    <!--   -->
+                </a>
+                <ul class="navList" title="Navigation">
+    <li><a href="../../../../index.html">Overview</a></li>
+    
+    <li><a href="package-summary.html">Package</a></li>
+    
+    <li class="navBarCell1Rev">Class</li>
+    
+    <li><a href="package-tree.html">Tree</a></li>
+    
+    <li><a href="../../../../deprecated.html">Deprecated</a></li>
+    <li><a href="../../../../index-files/index-1.html">Index</a></li>
+    <li>Help</li>
+</ul></div>
+            <div class="subNav">
+<ul class="navList" id="allclasses_navbar_top" style="display: block;">
+    <li><a href="../../../../allclasses.html">All&nbsp;Classes</a></li>
+</ul>
+
+<ul class="navListSearch">
+<li><label for="search">SEARCH:</label>
+<input type="text" id="search" value="search" class="ui-autocomplete-input" autocomplete="off" placeholder="Search">
+<input type="reset" id="reset" value="reset">
+</li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+</div>
+<a id="skip.navbar.top">
+<!--   -->
+</a></div><!-- ========= END OF TOP NAVBAR ========= -->
+        </div>
+        <div class="navPadding">&nbsp;</div>
+        <script type="text/javascript"><!--
+        $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
+        //-->
+        </script>
+    </nav>
+</header>
+
+<main role="main">
+    <div class="header">
+        <div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html"></a></div>
+        <h2 title="Class MediaPlayer" class="title">Class MediaPlayer</h2>
+    </div>
+    <div class="contentContainer">
+        <!-- <ul class="inheritance">
+            <li>java.lang.Object</li>
+            <li>
+                <ul class="inheritance">
+                    <li>adaptation.Adaptation</li>
+                </ul>
+            </li>
+        </ul> TODO inheritance tree -->
+        <div class="description">
+            <ul class="blockList">
+                <li class="blockList">
+                    
+                    <hr>
+                    <pre class="wrap-overflow">
+
+public class <span class="typeNameLabel"><a href=MediaPlayer.html>MediaPlayer</a></span>
+
+                    </pre>
+                    <div class="block"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="summary">
+            <ul class="blockList">
+                <li class="blockList">
+                <!-- ======== NESTED CLASS SUMMARY ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="nested.class.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Nested Class Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Nested Classes</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Class</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public class</code></td>
+                                            <th class="colSecond" scope="row"><code><a href="MediaPlayer.TrackInfo.html">MediaPlayer.TrackInfo</a></span></code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public interface</code></td>
+                                            <th class="colSecond" scope="row"><code><a href="MediaPlayer.OnPreparedListener.html">MediaPlayer.OnPreparedListener</a></span></code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public interface</code></td>
+                                            <th class="colSecond" scope="row"><code><a href="MediaPlayer.OnCompletionListener.html">MediaPlayer.OnCompletionListener</a></span></code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public interface</code></td>
+                                            <th class="colSecond" scope="row"><code><a href="MediaPlayer.OnBufferingUpdateListener.html">MediaPlayer.OnBufferingUpdateListener</a></span></code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public interface</code></td>
+                                            <th class="colSecond" scope="row"><code><a href="MediaPlayer.OnSeekCompleteListener.html">MediaPlayer.OnSeekCompleteListener</a></span></code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public interface</code></td>
+                                            <th class="colSecond" scope="row"><code><a href="MediaPlayer.OnVideoSizeChangedListener.html">MediaPlayer.OnVideoSizeChangedListener</a></span></code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public interface</code></td>
+                                            <th class="colSecond" scope="row"><code><a href="MediaPlayer.OnTimedTextListener.html">MediaPlayer.OnTimedTextListener</a></span></code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public interface</code></td>
+                                            <th class="colSecond" scope="row"><code><a href="MediaPlayer.OnErrorListener.html">MediaPlayer.OnErrorListener</a></span></code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public interface</code></td>
+                                            <th class="colSecond" scope="row"><code><a href="MediaPlayer.OnInfoListener.html">MediaPlayer.OnInfoListener</a></span></code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- =========== FIELD SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="field.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Field Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Fields</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Field</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_ERROR_UNKNOWN>MEDIA_ERROR_UNKNOWN</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_ERROR_SERVER_DIED>MEDIA_ERROR_SERVER_DIED</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK>MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_ERROR_IO>MEDIA_ERROR_IO</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_ERROR_MALFORMED>MEDIA_ERROR_MALFORMED</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_ERROR_UNSUPPORTED>MEDIA_ERROR_UNSUPPORTED</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_ERROR_TIMED_OUT>MEDIA_ERROR_TIMED_OUT</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_INFO_UNKNOWN>MEDIA_INFO_UNKNOWN</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_INFO_STARTED_AS_NEXT>MEDIA_INFO_STARTED_AS_NEXT</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_INFO_VIDEO_RENDERING_START>MEDIA_INFO_VIDEO_RENDERING_START</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_INFO_VIDEO_TRACK_LAGGING>MEDIA_INFO_VIDEO_TRACK_LAGGING</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_INFO_BUFFERING_START>MEDIA_INFO_BUFFERING_START</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_INFO_BUFFERING_END>MEDIA_INFO_BUFFERING_END</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_INFO_BAD_INTERLEAVING>MEDIA_INFO_BAD_INTERLEAVING</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_INFO_NOT_SEEKABLE>MEDIA_INFO_NOT_SEEKABLE</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_INFO_METADATA_UPDATE>MEDIA_INFO_METADATA_UPDATE</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_INFO_EXTERNAL_METADATA_UPDATE>MEDIA_INFO_EXTERNAL_METADATA_UPDATE</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_INFO_TIMED_TEXT_ERROR>MEDIA_INFO_TIMED_TEXT_ERROR</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_INFO_UNSUPPORTED_SUBTITLE>MEDIA_INFO_UNSUPPORTED_SUBTITLE</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_INFO_SUBTITLE_TIMED_OUT>MEDIA_INFO_SUBTITLE_TIMED_OUT</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#VIDEO_SCALING_MODE_SCALE_TO_FIT>VIDEO_SCALING_MODE_SCALE_TO_FIT</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>public final static int</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#VIDEO_SCALING_MODE_SCALE_TO_FIT_WITH_CROPPING>VIDEO_SCALING_MODE_SCALE_TO_FIT_WITH_CROPPING</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public final static <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a></code></td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#MEDIA_MIMETYPE_TEXT_SUBRIP>MEDIA_MIMETYPE_TEXT_SUBRIP</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ======== CONSTRUCTOR SUMMARY ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="constructor.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Constructor Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tbody>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Constructor</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+
+                                        
+                                            <tr class="altColor">
+                                                <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a
+                                                        href="#MediaPlayer()">MediaPlayer</a></span>()</code></th>
+                                                <td class="colLast"></td>
+                                            </tr>
+                                        
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- =========== ENUM CONSTANT SUMMARY =========== -->
+                    
+                    <!-- ========== METHOD SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="method.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Method Summary</h3>
+                                <div class="memberSummary">
+                                    <div role="tablist" aria-orientation="horizontal">
+                                        <button role="tab" aria-selected="true" aria-controls="memberSummary_tabpanel" tabindex="0" onkeydown="switchTab(event)" id="t0" class="activeTableTab">All Methods</button>
+                                        <!-- TODO: Instance and Concrete Methods #1118 -->
+                                    </div>
+                                    <div id="memberSummary_tabpanel" role="tabpanel">
+                                    <table aria-labelledby="t0">
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Method</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                        <tr id="i0" class="altColor">
+                                            <td class="colFirst"><code>static <a href=MediaPlayer.html>MediaPlayer</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#create(Context,Uri)>create</a>(<a href=https://developer.android.com/reference/kotlin/android/content/Context.html>Context</a> context, <a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i1" class="rowColor">
+                                            <td class="colFirst"><code>static <a href=MediaPlayer.html>MediaPlayer</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#create(Context,Uri,SurfaceHolder)>create</a>(<a href=https://developer.android.com/reference/kotlin/android/content/Context.html>Context</a> context, <a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri, <a href=https://developer.android.com/reference/kotlin/android/view/SurfaceHolder.html>SurfaceHolder</a> holder) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i2" class="altColor">
+                                            <td class="colFirst"><code>static <a href=MediaPlayer.html>MediaPlayer</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#create(Context,Uri,SurfaceHolder,AudioAttributes,int)>create</a>(<a href=https://developer.android.com/reference/kotlin/android/content/Context.html>Context</a> context, <a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri, <a href=https://developer.android.com/reference/kotlin/android/view/SurfaceHolder.html>SurfaceHolder</a> holder, <a href=https://developer.android.com/reference/kotlin/android/media/AudioAttributes.html>AudioAttributes</a> audioAttributes, int audioSessionId) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i3" class="rowColor">
+                                            <td class="colFirst"><code>static <a href=MediaPlayer.html>MediaPlayer</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#create(Context,int)>create</a>(<a href=https://developer.android.com/reference/kotlin/android/content/Context.html>Context</a> context, int resid) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i4" class="altColor">
+                                            <td class="colFirst"><code>static <a href=MediaPlayer.html>MediaPlayer</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#create(Context,int,AudioAttributes,int)>create</a>(<a href=https://developer.android.com/reference/kotlin/android/content/Context.html>Context</a> context, int resid, <a href=https://developer.android.com/reference/kotlin/android/media/AudioAttributes.html>AudioAttributes</a> audioAttributes, int audioSessionId) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i5" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setDataSource(Context,Uri)>setDataSource</a>(<a href=https://developer.android.com/reference/kotlin/android/content/Context.html>Context</a> context, <a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i6" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setDataSource(Context,Uri,Map)>setDataSource</a>(<a href=https://developer.android.com/reference/kotlin/android/content/Context.html>Context</a> context, <a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri, <a href=https://developer.android.com/reference/kotlin/java/util/Map.html>Map</a>&lt;<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a>, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a>&gt; headers) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i7" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setDataSource(String)>setDataSource</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> path) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i8" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setDataSource(FileDescriptor)>setDataSource</a>(<a href=https://developer.android.com/reference/kotlin/java/io/FileDescriptor.html>FileDescriptor</a> fd) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i9" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setDataSource(FileDescriptor,long,long)>setDataSource</a>(<a href=https://developer.android.com/reference/kotlin/java/io/FileDescriptor.html>FileDescriptor</a> fd, long offset, long length) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i10" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#prepare()>prepare</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i11" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#prepareAsync()>prepareAsync</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i12" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setDisplay(SurfaceHolder)>setDisplay</a>(<a href=https://developer.android.com/reference/kotlin/android/view/SurfaceHolder.html>SurfaceHolder</a> sh) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i13" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setSurface(Surface)>setSurface</a>(<a href=https://developer.android.com/reference/kotlin/android/view/Surface.html>Surface</a> surface) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i14" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setVideoScalingMode(int)>setVideoScalingMode</a>(int mode) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i15" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#start()>start</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i16" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#stop()>stop</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i17" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#pause()>pause</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i18" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setWakeMode(Context,int)>setWakeMode</a>(<a href=https://developer.android.com/reference/kotlin/android/content/Context.html>Context</a> context, int mode) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i19" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setScreenOnWhilePlaying(boolean)>setScreenOnWhilePlaying</a>(boolean screenOn) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i20" class="altColor">
+                                            <td class="colFirst"><code>int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#getVideoWidth()>getVideoWidth</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i21" class="rowColor">
+                                            <td class="colFirst"><code>int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#getVideoHeight()>getVideoHeight</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i22" class="altColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#isPlaying()>isPlaying</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i23" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#seekTo(int)>seekTo</a>(int msec) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i24" class="altColor">
+                                            <td class="colFirst"><code>int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#getCurrentPosition()>getCurrentPosition</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i25" class="rowColor">
+                                            <td class="colFirst"><code>int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#getDuration()>getDuration</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i26" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setNextMediaPlayer(MediaPlayer)>setNextMediaPlayer</a>(<a href=MediaPlayer.html>MediaPlayer</a> next) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i27" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#release()>release</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i28" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#reset()>reset</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i29" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setAudioStreamType(int)>setAudioStreamType</a>(int streamtype) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i30" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setAudioAttributes(AudioAttributes)>setAudioAttributes</a>(<a href=https://developer.android.com/reference/kotlin/android/media/AudioAttributes.html>AudioAttributes</a> attributes) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i31" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setLooping(boolean)>setLooping</a>(boolean looping) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i32" class="altColor">
+                                            <td class="colFirst"><code>boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#isLooping()>isLooping</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i33" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setVolume(float,float)>setVolume</a>(float leftVolume, float rightVolume) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i34" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setAudioSessionId(int)>setAudioSessionId</a>(int sessionId) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i35" class="rowColor">
+                                            <td class="colFirst"><code>int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#getAudioSessionId()>getAudioSessionId</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i36" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#attachAuxEffect(int)>attachAuxEffect</a>(int effectId) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i37" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setAuxEffectSendLevel(float)>setAuxEffectSendLevel</a>(float level) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i38" class="altColor">
+                                            <td class="colFirst"><code><a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html>Array</a>&lt;<a href=MediaPlayer.TrackInfo.html>MediaPlayer.TrackInfo</a>&gt;</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#getTrackInfo()>getTrackInfo</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i39" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#addTimedTextSource(String,String)>addTimedTextSource</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> path, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> mimeType) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i40" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#addTimedTextSource(Context,Uri,String)>addTimedTextSource</a>(<a href=https://developer.android.com/reference/kotlin/android/content/Context.html>Context</a> context, <a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> mimeType) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i41" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#addTimedTextSource(FileDescriptor,String)>addTimedTextSource</a>(<a href=https://developer.android.com/reference/kotlin/java/io/FileDescriptor.html>FileDescriptor</a> fd, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> mimeType) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i42" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#addTimedTextSource(FileDescriptor,long,long,String)>addTimedTextSource</a>(<a href=https://developer.android.com/reference/kotlin/java/io/FileDescriptor.html>FileDescriptor</a> fd, long offset, long length, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> mime) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i43" class="rowColor">
+                                            <td class="colFirst"><code>int</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#getSelectedTrack(int)>getSelectedTrack</a>(int trackType) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i44" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#selectTrack(int)>selectTrack</a>(int index) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i45" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#deselectTrack(int)>deselectTrack</a>(int index) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i46" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setOnPreparedListener(MediaPlayer.OnPreparedListener)>setOnPreparedListener</a>(<a href=MediaPlayer.OnPreparedListener.html>MediaPlayer.OnPreparedListener</a> listener) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i47" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setOnCompletionListener(MediaPlayer.OnCompletionListener)>setOnCompletionListener</a>(<a href=MediaPlayer.OnCompletionListener.html>MediaPlayer.OnCompletionListener</a> listener) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i48" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setOnBufferingUpdateListener(MediaPlayer.OnBufferingUpdateListener)>setOnBufferingUpdateListener</a>(<a href=MediaPlayer.OnBufferingUpdateListener.html>MediaPlayer.OnBufferingUpdateListener</a> listener) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i49" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setOnSeekCompleteListener(MediaPlayer.OnSeekCompleteListener)>setOnSeekCompleteListener</a>(<a href=MediaPlayer.OnSeekCompleteListener.html>MediaPlayer.OnSeekCompleteListener</a> listener) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i50" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setOnVideoSizeChangedListener(MediaPlayer.OnVideoSizeChangedListener)>setOnVideoSizeChangedListener</a>(<a href=MediaPlayer.OnVideoSizeChangedListener.html>MediaPlayer.OnVideoSizeChangedListener</a> listener) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i51" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setOnTimedTextListener(MediaPlayer.OnTimedTextListener)>setOnTimedTextListener</a>(<a href=MediaPlayer.OnTimedTextListener.html>MediaPlayer.OnTimedTextListener</a> listener) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i52" class="altColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setOnErrorListener(MediaPlayer.OnErrorListener)>setOnErrorListener</a>(<a href=MediaPlayer.OnErrorListener.html>MediaPlayer.OnErrorListener</a> listener) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i53" class="rowColor">
+                                            <td class="colFirst"><code>void</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=MediaPlayer.html#setOnInfoListener(MediaPlayer.OnInfoListener)>setOnInfoListener</a>(<a href=MediaPlayer.OnInfoListener.html>MediaPlayer.OnInfoListener</a> listener) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <ul class="blockList">
+                                
+                                    <li class="blockList"><a id="methods.inherited.from.class.java.lang.Object">
+                                        <!--   -->
+                                    </a>
+                                        <h3>Methods inherited from class&nbsp;java.lang.Object</h3>
+                                        <code>clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString,
+                                            wait, wait, wait</code></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                </li>
+            </ul>
+        </div>
+        <div class="details">
+            <ul class="blockList">
+                <li class="blockList">
+                    <!-- ========= CONSTRUCTOR DETAIL ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="constructor.detail">
+                                <!--   -->
+                            </a>
+                                <h3>Constructor Detail</h3>
+                                
+                                <a name="MediaPlayer()"></a>
+                                <ul class="blockList">
+                                    <li class="blockList">
+                                        <h4>MediaPlayer</h4>
+                                        <pre>MediaPlayer()</pre>
+                                        <div class="block"></div>
+                                        
+                                    </li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ============ METHOD DETAIL ========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="method.detail">
+                                <!--   -->
+                            </a>
+                                <h3>Method Detail</h3>
+                                
+                                <a id="create(Context,Uri)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>create</h4>
+                                        <pre class="methodSignature"> static <a href=MediaPlayer.html>MediaPlayer</a> <a href=MediaPlayer.html#create(Context,Uri)>create</a>(<a href=https://developer.android.com/reference/kotlin/android/content/Context.html>Context</a> context, <a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="create(Context,Uri,SurfaceHolder)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>create</h4>
+                                        <pre class="methodSignature"> static <a href=MediaPlayer.html>MediaPlayer</a> <a href=MediaPlayer.html#create(Context,Uri,SurfaceHolder)>create</a>(<a href=https://developer.android.com/reference/kotlin/android/content/Context.html>Context</a> context, <a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri, <a href=https://developer.android.com/reference/kotlin/android/view/SurfaceHolder.html>SurfaceHolder</a> holder)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="create(Context,Uri,SurfaceHolder,AudioAttributes,int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>create</h4>
+                                        <pre class="methodSignature"> static <a href=MediaPlayer.html>MediaPlayer</a> <a href=MediaPlayer.html#create(Context,Uri,SurfaceHolder,AudioAttributes,int)>create</a>(<a href=https://developer.android.com/reference/kotlin/android/content/Context.html>Context</a> context, <a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri, <a href=https://developer.android.com/reference/kotlin/android/view/SurfaceHolder.html>SurfaceHolder</a> holder, <a href=https://developer.android.com/reference/kotlin/android/media/AudioAttributes.html>AudioAttributes</a> audioAttributes, int audioSessionId)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="create(Context,int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>create</h4>
+                                        <pre class="methodSignature"> static <a href=MediaPlayer.html>MediaPlayer</a> <a href=MediaPlayer.html#create(Context,int)>create</a>(<a href=https://developer.android.com/reference/kotlin/android/content/Context.html>Context</a> context, int resid)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="create(Context,int,AudioAttributes,int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>create</h4>
+                                        <pre class="methodSignature"> static <a href=MediaPlayer.html>MediaPlayer</a> <a href=MediaPlayer.html#create(Context,int,AudioAttributes,int)>create</a>(<a href=https://developer.android.com/reference/kotlin/android/content/Context.html>Context</a> context, int resid, <a href=https://developer.android.com/reference/kotlin/android/media/AudioAttributes.html>AudioAttributes</a> audioAttributes, int audioSessionId)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setDataSource(Context,Uri)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setDataSource</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setDataSource(Context,Uri)>setDataSource</a>(<a href=https://developer.android.com/reference/kotlin/android/content/Context.html>Context</a> context, <a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setDataSource(Context,Uri,Map)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setDataSource</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setDataSource(Context,Uri,Map)>setDataSource</a>(<a href=https://developer.android.com/reference/kotlin/android/content/Context.html>Context</a> context, <a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri, <a href=https://developer.android.com/reference/kotlin/java/util/Map.html>Map</a>&lt;<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a>, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a>&gt; headers)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setDataSource(String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setDataSource</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setDataSource(String)>setDataSource</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> path)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setDataSource(FileDescriptor)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setDataSource</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setDataSource(FileDescriptor)>setDataSource</a>(<a href=https://developer.android.com/reference/kotlin/java/io/FileDescriptor.html>FileDescriptor</a> fd)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setDataSource(FileDescriptor,long,long)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setDataSource</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setDataSource(FileDescriptor,long,long)>setDataSource</a>(<a href=https://developer.android.com/reference/kotlin/java/io/FileDescriptor.html>FileDescriptor</a> fd, long offset, long length)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="prepare()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>prepare</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#prepare()>prepare</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="prepareAsync()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>prepareAsync</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#prepareAsync()>prepareAsync</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setDisplay(SurfaceHolder)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setDisplay</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setDisplay(SurfaceHolder)>setDisplay</a>(<a href=https://developer.android.com/reference/kotlin/android/view/SurfaceHolder.html>SurfaceHolder</a> sh)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setSurface(Surface)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setSurface</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setSurface(Surface)>setSurface</a>(<a href=https://developer.android.com/reference/kotlin/android/view/Surface.html>Surface</a> surface)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setVideoScalingMode(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setVideoScalingMode</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setVideoScalingMode(int)>setVideoScalingMode</a>(int mode)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="start()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>start</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#start()>start</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="stop()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>stop</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#stop()>stop</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="pause()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>pause</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#pause()>pause</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setWakeMode(Context,int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setWakeMode</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setWakeMode(Context,int)>setWakeMode</a>(<a href=https://developer.android.com/reference/kotlin/android/content/Context.html>Context</a> context, int mode)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setScreenOnWhilePlaying(boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setScreenOnWhilePlaying</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setScreenOnWhilePlaying(boolean)>setScreenOnWhilePlaying</a>(boolean screenOn)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getVideoWidth()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getVideoWidth</h4>
+                                        <pre class="methodSignature"> int <a href=MediaPlayer.html#getVideoWidth()>getVideoWidth</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getVideoHeight()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getVideoHeight</h4>
+                                        <pre class="methodSignature"> int <a href=MediaPlayer.html#getVideoHeight()>getVideoHeight</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="isPlaying()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isPlaying</h4>
+                                        <pre class="methodSignature"> boolean <a href=MediaPlayer.html#isPlaying()>isPlaying</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="seekTo(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>seekTo</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#seekTo(int)>seekTo</a>(int msec)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getCurrentPosition()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getCurrentPosition</h4>
+                                        <pre class="methodSignature"> int <a href=MediaPlayer.html#getCurrentPosition()>getCurrentPosition</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getDuration()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getDuration</h4>
+                                        <pre class="methodSignature"> int <a href=MediaPlayer.html#getDuration()>getDuration</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setNextMediaPlayer(MediaPlayer)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setNextMediaPlayer</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setNextMediaPlayer(MediaPlayer)>setNextMediaPlayer</a>(<a href=MediaPlayer.html>MediaPlayer</a> next)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="release()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>release</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#release()>release</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="reset()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>reset</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#reset()>reset</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setAudioStreamType(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setAudioStreamType</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setAudioStreamType(int)>setAudioStreamType</a>(int streamtype)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setAudioAttributes(AudioAttributes)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setAudioAttributes</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setAudioAttributes(AudioAttributes)>setAudioAttributes</a>(<a href=https://developer.android.com/reference/kotlin/android/media/AudioAttributes.html>AudioAttributes</a> attributes)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setLooping(boolean)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setLooping</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setLooping(boolean)>setLooping</a>(boolean looping)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="isLooping()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isLooping</h4>
+                                        <pre class="methodSignature"> boolean <a href=MediaPlayer.html#isLooping()>isLooping</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setVolume(float,float)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setVolume</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setVolume(float,float)>setVolume</a>(float leftVolume, float rightVolume)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setAudioSessionId(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setAudioSessionId</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setAudioSessionId(int)>setAudioSessionId</a>(int sessionId)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getAudioSessionId()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getAudioSessionId</h4>
+                                        <pre class="methodSignature"> int <a href=MediaPlayer.html#getAudioSessionId()>getAudioSessionId</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="attachAuxEffect(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>attachAuxEffect</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#attachAuxEffect(int)>attachAuxEffect</a>(int effectId)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setAuxEffectSendLevel(float)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setAuxEffectSendLevel</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setAuxEffectSendLevel(float)>setAuxEffectSendLevel</a>(float level)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getTrackInfo()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getTrackInfo</h4>
+                                        <pre class="methodSignature"> <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html>Array</a>&lt;<a href=MediaPlayer.TrackInfo.html>MediaPlayer.TrackInfo</a>&gt; <a href=MediaPlayer.html#getTrackInfo()>getTrackInfo</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="addTimedTextSource(String,String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>addTimedTextSource</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#addTimedTextSource(String,String)>addTimedTextSource</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> path, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> mimeType)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="addTimedTextSource(Context,Uri,String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>addTimedTextSource</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#addTimedTextSource(Context,Uri,String)>addTimedTextSource</a>(<a href=https://developer.android.com/reference/kotlin/android/content/Context.html>Context</a> context, <a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> mimeType)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="addTimedTextSource(FileDescriptor,String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>addTimedTextSource</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#addTimedTextSource(FileDescriptor,String)>addTimedTextSource</a>(<a href=https://developer.android.com/reference/kotlin/java/io/FileDescriptor.html>FileDescriptor</a> fd, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> mimeType)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="addTimedTextSource(FileDescriptor,long,long,String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>addTimedTextSource</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#addTimedTextSource(FileDescriptor,long,long,String)>addTimedTextSource</a>(<a href=https://developer.android.com/reference/kotlin/java/io/FileDescriptor.html>FileDescriptor</a> fd, long offset, long length, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> mime)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getSelectedTrack(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getSelectedTrack</h4>
+                                        <pre class="methodSignature"> int <a href=MediaPlayer.html#getSelectedTrack(int)>getSelectedTrack</a>(int trackType)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="selectTrack(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>selectTrack</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#selectTrack(int)>selectTrack</a>(int index)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="deselectTrack(int)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>deselectTrack</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#deselectTrack(int)>deselectTrack</a>(int index)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setOnPreparedListener(MediaPlayer.OnPreparedListener)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setOnPreparedListener</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setOnPreparedListener(MediaPlayer.OnPreparedListener)>setOnPreparedListener</a>(<a href=MediaPlayer.OnPreparedListener.html>MediaPlayer.OnPreparedListener</a> listener)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setOnCompletionListener(MediaPlayer.OnCompletionListener)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setOnCompletionListener</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setOnCompletionListener(MediaPlayer.OnCompletionListener)>setOnCompletionListener</a>(<a href=MediaPlayer.OnCompletionListener.html>MediaPlayer.OnCompletionListener</a> listener)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setOnBufferingUpdateListener(MediaPlayer.OnBufferingUpdateListener)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setOnBufferingUpdateListener</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setOnBufferingUpdateListener(MediaPlayer.OnBufferingUpdateListener)>setOnBufferingUpdateListener</a>(<a href=MediaPlayer.OnBufferingUpdateListener.html>MediaPlayer.OnBufferingUpdateListener</a> listener)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setOnSeekCompleteListener(MediaPlayer.OnSeekCompleteListener)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setOnSeekCompleteListener</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setOnSeekCompleteListener(MediaPlayer.OnSeekCompleteListener)>setOnSeekCompleteListener</a>(<a href=MediaPlayer.OnSeekCompleteListener.html>MediaPlayer.OnSeekCompleteListener</a> listener)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setOnVideoSizeChangedListener(MediaPlayer.OnVideoSizeChangedListener)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setOnVideoSizeChangedListener</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setOnVideoSizeChangedListener(MediaPlayer.OnVideoSizeChangedListener)>setOnVideoSizeChangedListener</a>(<a href=MediaPlayer.OnVideoSizeChangedListener.html>MediaPlayer.OnVideoSizeChangedListener</a> listener)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setOnTimedTextListener(MediaPlayer.OnTimedTextListener)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setOnTimedTextListener</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setOnTimedTextListener(MediaPlayer.OnTimedTextListener)>setOnTimedTextListener</a>(<a href=MediaPlayer.OnTimedTextListener.html>MediaPlayer.OnTimedTextListener</a> listener)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setOnErrorListener(MediaPlayer.OnErrorListener)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setOnErrorListener</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setOnErrorListener(MediaPlayer.OnErrorListener)>setOnErrorListener</a>(<a href=MediaPlayer.OnErrorListener.html>MediaPlayer.OnErrorListener</a> listener)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setOnInfoListener(MediaPlayer.OnInfoListener)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockListLast"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setOnInfoListener</h4>
+                                        <pre class="methodSignature"> void <a href=MediaPlayer.html#setOnInfoListener(MediaPlayer.OnInfoListener)>setOnInfoListener</a>(<a href=MediaPlayer.OnInfoListener.html>MediaPlayer.OnInfoListener</a> listener)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                    </section>
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
+<footer role="contentinfo">
+    <nav role="navigation">
+        <!-- ======= START OF BOTTOM NAVBAR ====== -->
+        <div class="bottomNav"><a id="navbar.bottom">
+            <!--   -->
+        </a>
+            <div class="skipNav"><a href="#skip.navbar.bottom" title="Skip navigation links">Skip navigation links</a>
+            </div>
+            <a id="navbar.bottom.firstrow">
+                <!--   -->
+            </a>
+            <ul class="navList" title="Navigation">
+    <li><a href="../../../../index.html">Overview</a></li>
+    
+    <li><a href="package-summary.html">Package</a></li>
+    
+    <li class="navBarCell1Rev">Class</li>
+    
+    <li><a href="package-tree.html">Tree</a></li>
+    
+    <li><a href="../../../../deprecated.html">Deprecated</a></li>
+    <li><a href="../../../../index-files/index-1.html">Index</a></li>
+    <li>Help</li>
+</ul></div>
+        <a id="skip.navbar.bottom">
+            <!--   -->
+        </a>
+        <div class="subNav">
+<ul class="navList" id="allclasses_navbar_top" style="display: block;">
+    <li><a href="../../../../allclasses.html">All&nbsp;Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+</div>
+<a id="skip.navbar.top">
+<!--   -->
+</a></div><!-- ======== END OF BOTTOM NAVBAR ======= -->
+    </nav>
+</footer><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1" tabindex="0"
+    style="display: none;"></ul>
+<span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span>
+</body>
+</html>
